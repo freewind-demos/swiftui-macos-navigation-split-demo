@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SidebarItem: Identifiable {
+struct SidebarItem: Identifiable, Hashable {
     let id = UUID()
     let title: String
     let icon: String
